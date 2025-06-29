@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.umesh.todocmp.composeApp-mergeDebugResources-54:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\umesh.kumar\\.gradle\\caches\\8.9\\transforms\\9cb66a63e449014b8737b6564be60dfb\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

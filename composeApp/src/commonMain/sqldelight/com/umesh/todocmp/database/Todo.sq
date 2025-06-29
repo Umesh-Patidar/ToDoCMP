@@ -1,0 +1,20 @@
+CREATE TABLE Todo (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    isDone INTEGER NOT NULL,
+    priority TEXT NOT NULL -- New field: "LOW", "MEDIUM", "HIGH"
+);
+
+selectAll:
+SELECT * FROM Todo;
+
+insertTodo:
+INSERT INTO Todo(title, isDone, priority) VALUES (?, ?, ?);
+
+deleteTodo:
+DELETE FROM Todo WHERE id = ?;
+
+updateTodo:
+UPDATE Todo
+SET title = ?, isDone = ?, priority = ?
+WHERE id = ?;

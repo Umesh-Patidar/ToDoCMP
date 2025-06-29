@@ -76,3 +76,26 @@ prebuilds/fullsdk-darwin
 .cxx
 *.klib
 .kotlin/
+
+### iOS Xcode generated ###
+iOSDemoApp/iOSDemoApp.xcodeproj/*
+!iOSDemoApp/iOSDemoApp.xcodeproj/project.pbxproj
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+Package.resolved
+
+### Mac OS ###
+.DS_Store
+
+### Firebase ###
+/androidApp/google-services.json
+iOSDemoApp/iOSDemoApp/GoogleService-Info.plist
+
+### General
+**/build
+**/*.db

@@ -8,6 +8,8 @@ plugins {
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.composeHotReload)
+    alias(libs.plugins.sqldelight)
+    alias(libs.plugins.kotlinxSerialization)
 }
 
 kotlin {
@@ -30,13 +32,29 @@ kotlin {
     }
     
     jvm("desktop")
-    
+
     sourceSets {
         val desktopMain by getting
         
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+            //sqldelight
+            implementation(libs.android.driver)
+            //ktor
+            implementation(libs.ktor.client.android)
+            //koin
+            implementation(libs.koin.android)
+            //handle system ui
+            implementation(libs.accompanist.systemuicontroller)
+        }
+        iosMain.dependencies  {
+            //sqldelight
+            implementation(libs.native.driver)
+            //ktor
+            implementation(libs.ktor.client.darwin)
+            //koin
+            implementation(libs.koin.core)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -47,13 +65,46 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtimeCompose)
+            implementation(compose.materialIconsExtended)
+
+            //sqldelight
+            implementation(libs.runtime)
+            implementation(libs.coroutines.extensions)
+
+            //ktor
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.ktor.serialization.kotlinx.json)
+
+            //koin
+            implementation(libs.koin.core)
+            implementation(libs.koin.compose)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
+
+            // For coroutine testing
+            implementation(libs.kotlinx.coroutines.test)
+
+            // For assertions
+            implementation(kotlin("test"))
+
+            // Optional: MockK or Turbine (for Flow testing)
+            implementation(libs.turbine)
+
+            //koin test
+            implementation(libs.koin.core)
+
+            //sql delight
+           // implementation(libs.sqlite.driver.v201)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutinesSwing)
+            //sqldelight
+            implementation(libs.desktop.driver)
+            //koin
+            implementation(libs.koin.core)
         }
     }
 }
@@ -97,6 +148,14 @@ compose.desktop {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "com.umesh.todocmp"
             packageVersion = "1.0.0"
+        }
+    }
+}
+
+sqldelight {
+    databases {
+        create("AppDatabase") {
+            packageName.set("com.umesh.todocmp.database")
         }
     }
 }

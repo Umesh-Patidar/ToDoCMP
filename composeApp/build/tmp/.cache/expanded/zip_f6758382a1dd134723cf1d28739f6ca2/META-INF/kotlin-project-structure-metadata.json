@@ -1,0 +1,262 @@
+{
+  "projectStructure": {
+    "formatVersion": "0.3.3",
+    "isPublishedAsRoot": "true",
+    "variants": [
+      {
+        "name": "debugApiElements",
+        "sourceSet": [
+          "nonNativeMain",
+          "commonMain",
+          "nonJsMain"
+        ]
+      },
+      {
+        "name": "debugRuntimeElements",
+        "sourceSet": [
+          "nonNativeMain",
+          "commonMain",
+          "nonJsMain"
+        ]
+      },
+      {
+        "name": "releaseApiElements",
+        "sourceSet": [
+          "nonNativeMain",
+          "commonMain",
+          "nonJsMain"
+        ]
+      },
+      {
+        "name": "releaseRuntimeElements",
+        "sourceSet": [
+          "nonNativeMain",
+          "commonMain",
+          "nonJsMain"
+        ]
+      },
+      {
+        "name": "iosArm64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "itvosMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "iosSimulatorArm64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "itvosMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "iosX64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "itvosMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "jsApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonNativeMain"
+        ]
+      },
+      {
+        "name": "jsRuntimeElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonNativeMain"
+        ]
+      },
+      {
+        "name": "jvmApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonNativeMain",
+          "nonJsMain"
+        ]
+      },
+      {
+        "name": "jvmRuntimeElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonNativeMain",
+          "nonJsMain"
+        ]
+      },
+      {
+        "name": "macosArm64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "macosX64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "tvosArm64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "itvosMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "tvosSimulatorArm64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "itvosMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "tvosX64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "itvosMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "watchosArm32ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "watchosArm64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "watchosSimulatorArm64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "darwinMain"
+        ]
+      },
+      {
+        "name": "watchosX64ApiElements",
+        "sourceSet": [
+          "nonAndroidMain",
+          "commonMain",
+          "nonJsMain",
+          "darwinMain"
+        ]
+      }
+    ],
+    "sourceSets": [
+      {
+        "name": "commonMain",
+        "dependsOn": [],
+        "moduleDependency": [
+          "com.arkivanov.essenty:lifecycle",
+          "com.arkivanov.essenty:state-keeper",
+          "com.arkivanov.essenty:instance-keeper",
+          "com.arkivanov.essenty:back-handler",
+          "org.jetbrains.kotlinx:kotlinx-serialization-core"
+        ],
+        "binaryLayout": "klib"
+      },
+      {
+        "name": "darwinMain",
+        "dependsOn": [
+          "commonMain"
+        ],
+        "moduleDependency": [
+          "com.arkivanov.essenty:lifecycle",
+          "com.arkivanov.essenty:state-keeper",
+          "com.arkivanov.essenty:instance-keeper",
+          "com.arkivanov.essenty:back-handler",
+          "org.jetbrains.kotlinx:kotlinx-serialization-core",
+          "org.jetbrains.kotlin:kotlin-stdlib",
+          "org.jetbrains.kotlinx:kotlinx-serialization-json"
+        ],
+        "sourceSetCInteropMetadataDirectory": "darwinMain-cinterop",
+        "binaryLayout": "klib",
+        "hostSpecific": "true"
+      },
+      {
+        "name": "itvosMain",
+        "dependsOn": [
+          "darwinMain"
+        ],
+        "moduleDependency": [
+          "com.arkivanov.essenty:lifecycle",
+          "com.arkivanov.essenty:state-keeper",
+          "com.arkivanov.essenty:instance-keeper",
+          "com.arkivanov.essenty:back-handler",
+          "org.jetbrains.kotlinx:kotlinx-serialization-core",
+          "org.jetbrains.kotlin:kotlin-stdlib",
+          "org.jetbrains.kotlinx:kotlinx-serialization-json"
+        ],
+        "sourceSetCInteropMetadataDirectory": "itvosMain-cinterop",
+        "binaryLayout": "klib",
+        "hostSpecific": "true"
+      },
+      {
+        "name": "nonAndroidMain",
+        "dependsOn": [
+          "commonMain"
+        ],
+        "moduleDependency": [],
+        "binaryLayout": "klib"
+      },
+      {
+        "name": "nonJsMain",
+        "dependsOn": [
+          "commonMain"
+        ],
+        "moduleDependency": [],
+        "binaryLayout": "klib"
+      },
+      {
+        "name": "nonNativeMain",
+        "dependsOn": [
+          "commonMain"
+        ],
+        "moduleDependency": [],
+        "binaryLayout": "klib"
+      }
+    ]
+  }
+}

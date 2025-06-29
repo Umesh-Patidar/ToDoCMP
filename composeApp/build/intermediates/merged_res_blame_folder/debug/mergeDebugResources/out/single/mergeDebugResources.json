@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-anydpi-v26_ic_app_logo_round.xml.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-anydpi-v26/ic_app_logo_round.xml"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxxhdpi_ic_app_logo_round.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxxhdpi/ic_app_logo_round.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxhdpi_ic_app_logo_foreground.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxhdpi/ic_app_logo_foreground.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxhdpi_ic_app_logo_round.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxhdpi/ic_app_logo_round.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-hdpi_ic_app_logo_foreground.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-hdpi/ic_app_logo_foreground.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xhdpi_ic_app_logo.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xhdpi/ic_app_logo.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-hdpi_ic_app_logo.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-hdpi/ic_app_logo.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.umesh.todocmp.composeApp-androidMain-58:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-hdpi_ic_app_logo_round.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-hdpi/ic_app_logo_round.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-mdpi_ic_app_logo.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-mdpi/ic_app_logo.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xhdpi_ic_app_logo_foreground.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xhdpi/ic_app_logo_foreground.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xhdpi_ic_app_logo_round.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xhdpi/ic_app_logo_round.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-mdpi_ic_app_logo_foreground.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-mdpi/ic_app_logo_foreground.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-anydpi-v26_ic_app_logo.xml.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-anydpi-v26/ic_app_logo.xml"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxxhdpi_ic_app_logo_foreground.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxxhdpi/ic_app_logo_foreground.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxhdpi_ic_app_logo.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxhdpi/ic_app_logo.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-mdpi_ic_app_logo_round.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-mdpi/ic_app_logo_round.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/drawable_ic_app_logo_background.xml.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/drawable/ic_app_logo_background.xml"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.umesh.todocmp.composeApp-debug-56:/mipmap-xxxhdpi_ic_app_logo.webp.flat",
+        "source": "com.umesh.todocmp.composeApp-main-60:/mipmap-xxxhdpi/ic_app_logo.webp"
+    }
+]
